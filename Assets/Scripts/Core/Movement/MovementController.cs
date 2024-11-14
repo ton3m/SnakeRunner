@@ -40,7 +40,7 @@ namespace Core.Movement {
 		}
 
 		private void MoveToDirection(Vector3 direction) {
-			_rigidbody.velocity = direction;
+			_rigidbody.linearVelocity = direction;
 		}
 	}
 }
